@@ -67,7 +67,7 @@ void mem_alloc_2d_array()
     arr = malloc(sizeof(int*) * m);
 
     // Now create a block of normal integers to be assigned to each pointer.
-    for(int i = 0; i < n; i++)
+    for(int i = 0; i < m; i++)
     {
         arr[i] = malloc(sizeof(int) * n);
     }
